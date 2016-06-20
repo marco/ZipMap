@@ -14,6 +14,13 @@
 		92A24A851D1761B200FFCA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A24A841D1761B200FFCA63 /* Assets.xcassets */; };
 		92A24A881D1761B200FFCA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A24A861D1761B200FFCA63 /* LaunchScreen.storyboard */; };
 		92A24A901D17627600FFCA63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92A24A8F1D17627600FFCA63 /* GoogleService-Info.plist */; };
+		92A24A931D17654500FFCA63 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A24A911D17654500FFCA63 /* WelcomeViewController.swift */; };
+		92A24A941D17654500FFCA63 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92A24A921D17654500FFCA63 /* WelcomeViewController.xib */; };
+		92A24A981D17658400FFCA63 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A24A961D17658400FFCA63 /* SignUpViewController.swift */; };
+		92A24A991D17658400FFCA63 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92A24A971D17658400FFCA63 /* SignUpViewController.xib */; };
+		92A24A9C1D17658E00FFCA63 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A24A9A1D17658E00FFCA63 /* LogInViewController.swift */; };
+		92A24A9D1D17658E00FFCA63 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92A24A9B1D17658E00FFCA63 /* LogInViewController.xib */; };
+		92A24AA11D1826F700FFCA63 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A24AA01D1826F700FFCA63 /* OpeningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		92A24A871D1761B200FFCA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A24A891D1761B200FFCA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A24A8F1D17627600FFCA63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		92A24A911D17654500FFCA63 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		92A24A921D17654500FFCA63 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		92A24A961D17658400FFCA63 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		92A24A971D17658400FFCA63 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		92A24A9A1D17658E00FFCA63 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		92A24A9B1D17658E00FFCA63 /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		92A24AA01D1826F700FFCA63 /* OpeningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		C280C8EF8C05551B13116F6E /* Pods-ZipMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZipMap/Pods-ZipMap.release.xcconfig"; sourceTree = "<group>"; };
 		D362930B6ADB348ECB95950D /* Pods-ZipMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZipMap/Pods-ZipMap.debug.xcconfig"; sourceTree = "<group>"; };
 		F39A8AD6E396B557C7E9D99F /* Pods_ZipMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +86,7 @@
 		92A24A7C1D1761B200FFCA63 /* ZipMap */ = {
 			isa = PBXGroup;
 			children = (
+				92A24A951D17654900FFCA63 /* OpeningScreen */,
 				92A24A7D1D1761B200FFCA63 /* AppDelegate.swift */,
 				92A24A7F1D1761B200FFCA63 /* ViewController.swift */,
 				92A24A811D1761B200FFCA63 /* Main.storyboard */,
@@ -81,6 +96,20 @@
 				92A24A8F1D17627600FFCA63 /* GoogleService-Info.plist */,
 			);
 			path = ZipMap;
+			sourceTree = "<group>";
+		};
+		92A24A951D17654900FFCA63 /* OpeningScreen */ = {
+			isa = PBXGroup;
+			children = (
+				92A24A911D17654500FFCA63 /* WelcomeViewController.swift */,
+				92A24A921D17654500FFCA63 /* WelcomeViewController.xib */,
+				92A24A961D17658400FFCA63 /* SignUpViewController.swift */,
+				92A24A971D17658400FFCA63 /* SignUpViewController.xib */,
+				92A24A9A1D17658E00FFCA63 /* LogInViewController.swift */,
+				92A24A9B1D17658E00FFCA63 /* LogInViewController.xib */,
+				92A24AA01D1826F700FFCA63 /* OpeningViewController.swift */,
+			);
+			name = OpeningScreen;
 			sourceTree = "<group>";
 		};
 		BDB42F16195AC46C44E2E8C8 /* Frameworks */ = {
@@ -152,10 +181,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A24A941D17654500FFCA63 /* WelcomeViewController.xib in Resources */,
 				92A24A881D1761B200FFCA63 /* LaunchScreen.storyboard in Resources */,
 				92A24A901D17627600FFCA63 /* GoogleService-Info.plist in Resources */,
 				92A24A851D1761B200FFCA63 /* Assets.xcassets in Resources */,
+				92A24A991D17658400FFCA63 /* SignUpViewController.xib in Resources */,
 				92A24A831D1761B200FFCA63 /* Main.storyboard in Resources */,
+				92A24A9D1D17658E00FFCA63 /* LogInViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A24A931D17654500FFCA63 /* WelcomeViewController.swift in Sources */,
+				92A24AA11D1826F700FFCA63 /* OpeningViewController.swift in Sources */,
 				92A24A801D1761B200FFCA63 /* ViewController.swift in Sources */,
+				92A24A981D17658400FFCA63 /* SignUpViewController.swift in Sources */,
+				92A24A9C1D17658E00FFCA63 /* LogInViewController.swift in Sources */,
 				92A24A7E1D1761B200FFCA63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
