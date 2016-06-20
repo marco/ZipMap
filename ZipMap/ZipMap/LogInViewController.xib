@@ -14,7 +14,19 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.28485281299999998" green="0.077222534309999993" blue="0.68380604619999996" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Log In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9AF-Aw-P69">
+                    <rect key="frame" x="246" y="277" width="108" height="46"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9AF-Aw-P69" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0Rj-1t-9Qt"/>
+                <constraint firstItem="9AF-Aw-P69" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Vug-Ox-v3J"/>
+            </constraints>
         </view>
     </objects>
 </document>

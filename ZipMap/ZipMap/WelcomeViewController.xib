@@ -14,7 +14,21 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.2607120872" green="1" blue="0.52448183299999995" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGP-8n-NKM">
+                    <rect key="frame" x="171" y="259" width="259" height="82"/>
+                    <string key="text">Swipe left to sign up
+Swipe right to log in</string>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.10980392160000001" green="0.78823529410000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="mGP-8n-NKM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Wqe-vl-Ypk"/>
+                <constraint firstItem="mGP-8n-NKM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="qOB-kf-Ptk"/>
+            </constraints>
         </view>
     </objects>
 </document>

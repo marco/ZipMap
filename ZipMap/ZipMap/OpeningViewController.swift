@@ -52,8 +52,11 @@ class OpeningViewController: UIViewController {
 		newSignUpFrame.origin.x = self.view.frame.width * 2
 		signUpViewController.view.frame = newSignUpFrame
 		
-		//finally
+		//sets size
 		self.openingScrollView.contentSize = CGSizeMake(self.view.frame.width * 3, self.view.frame.height)
+		
+		//scrolls to right place
+		self.openingScrollView.contentOffset = CGPointMake(self.view.frame.width, 0)
 	}
     /*
     // MARK: - Navigation
